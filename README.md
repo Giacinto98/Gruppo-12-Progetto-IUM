@@ -1,2 +1,2 @@
 # ProgettoIUM
-Repository per progetto di Interazione uomo macchina
+Repository per documentazione progetto di Interazione uomo macchina
