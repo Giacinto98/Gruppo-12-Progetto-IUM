@@ -1,0 +1,19 @@
+a.menu-option {
+  text-decoration: none;
+  transition: 0.15s;
+}
+a.menu-option:hover {
+  color: #ffffff;
+  background-color: #348a76;
+}
+
+.ham-close-container {
+  transition: 0.15s;
+}
+.ham-close-container:hover {
+  background-color: #348a76;
+  cursor: pointer;
+}
+.ham-close-container:hover > svg {
+  fill: #ffffff;
+}

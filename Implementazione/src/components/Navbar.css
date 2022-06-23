@@ -1,0 +1,45 @@
+/* ---- navbar start ---- */
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 49; /* side menu is 50 */
+  border-bottom: 1px solid #dedede;
+}
+
+img.logo {
+  box-sizing: border-box;
+  object-fit: cover !important;
+}
+
+span.logo-name {
+  font-family: "SansitaRegular";
+  color: var(--color-primary);
+}
+
+.ham-container {
+  transition: 0.15s;
+}
+.ham-container:hover {
+  cursor: pointer;
+  background-color: #348a76;
+}
+.ham-container:hover > svg {
+  fill: #ffffff;
+}
+
+svg.hamburger-icon {
+  transition: fill 0.15s;
+}
+
+.logout {
+  color: var(--color-primary);
+}
+.logout:hover {
+  color: var(--color-hover);
+}
+
+/* svg.hamburger-icon:hover {
+  fill: #0d6651;
+  cursor: pointer;
+} */
+/* ---- navbar end ---- */

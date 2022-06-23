@@ -1,0 +1,13 @@
+.swiper-slide > img {
+  border-radius: var(--border-rad);
+}
+
+.swiper-pagination-bullet {
+  background: #ffffff;
+  opacity: 0.4;
+}
+
+.swiper-pagination-bullet-active {
+  background: #ffffff;
+  opacity: 1;
+}

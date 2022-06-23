@@ -1,0 +1,26 @@
+.swiper {
+  border-radius: var(--border-rad);
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  border-radius: var(--border-rad);
+  color: #ffffff;
+  padding: 30px 16px;
+  margin-top: calc(0px - ((var(--swiper-navigation-size) + 15px) / 2));
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background-color: #0000003d;
+}
+
+.swiper-pagination-bullet {
+  background: #ffffff;
+  opacity: 0.4;
+}
+
+.swiper-pagination-bullet-active {
+  background: #ffffff;
+  opacity: 1;
+}
